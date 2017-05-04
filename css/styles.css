@@ -1,0 +1,114 @@
+
+#logo{
+
+  diplay:flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+.search-bar{
+  display: flex;
+  justify-content: center;
+
+
+  align-items:flex-end;
+}
+.three-buttons{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction:row;
+}
+
+.nav{
+text-decoration: none;
+justify-content: space-between;
+justify-content: space-around;
+white-space: nowrap;
+
+}
+.middle-section{
+  display:flex;
+  justify-content:center;
+  align-content:flex-start;
+  flex-direction: row;
+
+}
+.right-section{
+  display:flex;
+flex-direction:column;
+  align-items: left;
+  justify-content:flex-end;
+  margin: 2rem;
+
+}
+.username{
+  display: flex;
+  flex-direction: row;
+}
+.posts-followers-following{
+  display:flex;
+  flex-direction: row;
+
+}
+/*flex menu design gallery*/
+.photoscontainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+.responsive-image {
+  max-width: 100%;
+}
+.responsivelogo{
+  
+  padding:  2rem;
+  justify-content: flex-end;
+  /*display:flex;
+flex-direction:column;
+  align-items: right;
+    justify-content: center;
+    right margin-right:*/
+
+
+}
+.responsivelogocell{
+display:flex;
+
+}
+.cell img {
+  display: block;
+}
+/*tablet*/
+@media screen and (min-width: 600px) {
+  .photo-rowgrid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+/*Desktop*/
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}
+/*Margins*/
+.cell {
+  margin: 1rem;
+}
+@media screen and (min-width: 600px) {
+  .cell {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(33.3333% - 2rem);
+  }
+}
