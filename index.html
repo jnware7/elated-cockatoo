@@ -1,116 +1,156 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-
-    <title>IVY Instagram</title>
-
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-
-
+    <!-- Sprite for top Left logo -->
+    <style>
+        #logo {
+            display: block;
+            background: url("images/instagramsprite.png") no-repeat -175px 1px;
+            width: 185px;
+            height: 36px;
+        }
+        
+    </style>
 </head>
 
 <body>
+    <!-- top section: logo,searchbar,three buttons top right -->
     <div class="top-section">
         <div>
-
             <a href="https://www.instagram.com/" id="logo"></a>
         </div>
-        <div class="search-bar">
+        <div>
             <div class="inner-addon left-addon">
-                <i class="glyphicon glyphicon-search"></i>
+
                 <input type="text" class="from-control" placeholder="Search">
             </div>
         </div>
+
         <div class="three-buttons">
             <div>
-                <button> <a href="https://www.instagram.com/explore/" class="nav"> Get the app</button>
-            </div>
+                <button class="nav1">  Get the app</button>
 
-            <div>
-                <a href="https://www.instagram.com/explore/" class="nav">Sign up </a>
-            </div>
-
-            <div>
+                <a href="https://www.instagram.com/explore/" class="nav">Sign up &#160&#160|</a>
                 <a href="https://www.instagram.com/brianb/" class="nav">Log in </a>
             </div>
+        </div>
+    </div>
 
+
+    <div class="everything-but-header">
+        <hr>
+        <div class="middle-section">
+            <div class="responsivelogocell">
+                <img src="images/Photologo.png" width="170" height="170" class="responsivelogo"></img>
+            </div>
+
+
+            <!--nav stops -->
+
+            <div class="right-section">
+                <div class="username">
+                    <div class="following">
+
+                        <h1 class="username-text">ivyconnect</h1>
+
+                        <div class="following-button">
+                        </div>
+
+                        <button class="button">Follow</button>
+                    </div>
+
+                </div>
+                <div class="posts-followers-following">
+
+                    <p><b>988</b> posts</p><br>
+                    <p><b>15.9k</b> followers</p><br>
+                    <p><b>4,982</b> following</p>
+                </div>
+
+                <p class="bio"> <b>IVY</b> The world's first Social University. Inspiring a community of leaders.Challenge yourself and join the movement.<br>
+                    <b>  <a href="bit.ly/2hR8yLx"class= "nav">bit.ly/2hR8yLx</a></b> </p>
+            </div>
         </div>
 
-            <div>
-                <div>
-                    <div class="everything-but-header">
-                        <hr>
-                        <div class="middle-section">
-                          <div class="responsivelogocell">
-                            <img src="http://placehold.it/200x200" class="responsivelogo"></img>
-                          </div>
+        <!-- Where photos on page are placed -->
+        <div class="photoscontainer">
+            <div class="photo-rowgrid">
+                <div class="cell">
+                    <img src="images/Photos1.png" class="responsive-image"></img>
+                </div>
+                <div class="cell">
+                    <img src="images/Photos2.png" class="responsive-image"></img>
+                </div>
+                <div class="cell">
+                    <img src="images/Photos3.png" class="responsive-image"></img>
+                </div>
+            </div>
+            <div class="photo-rowgrid">
+                <div class="cell">
+                    <img src="images/Photos4.png" class="responsive-image"></img>
+                </div>
+                <div class="cell">
+                    <img src="images/Photos5.png" class="responsive-image"></img>
+                </div>
+                <div class="cell">
+                    <img src="images/Photos6.png" class="responsive-image"></img>
+                </div>
+            </div>
+            <div class="photo-rowgrid">
+                <div class="cell">
+                    <img src="images/Photos7.png" class="responsive-image"></img>
+                </div>
+                <div class="cell">
+                    <img src="images/Photos8.png" class="responsive-image"></img>
+                </div>
+                <div class="cell">
+                    <img src="images/Photos9.png" class="responsive-image"></img>
+                </div>
+            </div>
+        </div>
+        <div class="centering">
+            <div class="loadmore">
+                <p class="loadp">Load more</p>
+            </div>
+        </div>
+        <center>
+            <footer class="contentinfo">
+                <div class="contentleft">
+
+                    <ul>
+                        <li class="nbottom"><b>ABOUT US</b></li>
+                        <li class="nbottom"><b>SUPPORT</b></li>
+                        <li class="nbottom"><b>BLOG</b></li>
+                        <li class="nbottom"><b>PRESS</b></li>
+                        <li class="nbottom"><b>API</b></li>
+                        <li class="nbottom"><b>JOBS</b></li>
+                        <li class="nbottom"><b>PRIVACY</b></li>
+                        <li class="nbottom"><b>TERMS</b></li>
+                        <li class="nbottom"><b>DIRECTORY</b></li>
+                        <li class="nbottom"><b>LANGUAGE</b></li>
+                        <li class="nbottom"><span class="copyright"> &copy 2017 INSTAGRAM</span></li>
+                    </ul>
+                </div>
 
 
-                            <!--nav stops -->
 
-                            <div class="right-section">
-                                <div class="following">
-                                    <div class="username">
-                                        <h1 class="username-text">ivyconnect</h1>
 
-                                    <div class="following-button">
-                                  </div>
-                                        <button class="button">
-                  <i class="fa fa-caret-down" aria-hidden="true">
-                  </i>Follow</button>
-                                    </div>
-                                    <div class="three-dots"></div>
-                                </div>
-                                <div class="posts-followers-following">
-                                    <p><b>988</b> posts</p>
-                                    <p><b>15.9k</b> followers</p>
-                                    <p><b>4,982</b> following</p>
-                                </div>
 
-                                <p class="bio"> <b>IVY Social</b> A community for ivy league</p>
 
-                            </div>
-                        </div>
-                        <div class="photoscontainer">
-                            <div class="photo-rowgrid">
-                              <div class="cell">
-                                <img src="http://placehold.it/800x800" class="responsive-image"></img>
-                              </div>
-                              <div class="cell">
-                                <img src="http://placehold.it/800x800" class="responsive-image"></img>
-                              </div>
-                              <div class="cell">
-                                <img src="http://placehold.it/800x800" class="responsive-image"></img>
-                              </div>
-                            </div>
-                            <div class="photo-rowgrid">
-                              <div class="cell">
-                                <img src="http://placehold.it/800x800" class="responsive-image"></img>
-                              </div>
-                              <div class="cell">
-                                <img src="http://placehold.it/800x800" class="responsive-image"></img>
-                              </div>
-                              <div class="cell">
-                                <img src="http://placehold.it/800x800" class="responsive-image"></img>
-                              </div>
-                            </div>
-                              <div class="photo-rowgrid">
-                                <div class="cell">
-                                  <img src="http://placehold.it/800x800" class="responsive-image"></img>
-                                </div>
-                                <div class="cell">
-                                  <img src="http://placehold.it/800x800" class="responsive-image"></img>
-                                </div>
-                                <div class="cell">
-                                  <img src="http://placehold.it/800x800" class="responsive-image"></img>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
+
+
+    </div>
+
+    </footer>
+    </center>
+
+
+    </div>
+
 </body>
 
 </html>
